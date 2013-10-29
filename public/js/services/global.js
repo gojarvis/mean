@@ -1,8 +1,6 @@
 window.app.factory("Global", function() {
     var _this = this;
-    _this._data = {
-        user: window.user,
-        authenticated: !! window.user
+    _this._data = {        
     };
 
     return _this._data;
